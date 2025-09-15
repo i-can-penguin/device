@@ -372,6 +372,15 @@ usermod -aG sudo user
 su user
 ```
 
+```
+[build container] - run once
+docker build --rm -f rk3506-ubuntu.dockerfile -t lyra:rk3506-ubuntu-build .
+
+[use container]
+cd /to-sdk
+docker run --rm -it -v $PWD:/build -w /build --user $(id -u):$(id -g) lyra:rk3506-ubuntu-build
+```
+
 #IMPORTANT NOTE
 This SDK is provided for non commercial use only
 
