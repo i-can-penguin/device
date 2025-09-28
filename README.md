@@ -108,24 +108,24 @@ root@luckfox:~# lsusb -tv
     ID 1d6b:0002 Linux Foundation 2.0 root hub
     |__ Port 001: Dev 002, If 0, Class=Hub, Driver=hub/4p, 480M
         ID 1a86:8091 QinHeng Electronics 
-        |__ Port 001: Dev 005, If 0, Class=Wireless, Driver=btusb, 480M
+        |__ Port 001: Dev 004, If 0, Class=Wireless, Driver=btusb, 480M
             ID a69c:88dc  
-        |__ Port 001: Dev 005, If 1, Class=Wireless, Driver=btusb, 480M
+        |__ Port 001: Dev 004, If 1, Class=Wireless, Driver=btusb, 480M
             ID a69c:88dc  
-        |__ Port 001: Dev 005, If 2, Class=Vendor Specific Class, Driver=aic8800_fdrv, 480M
+        |__ Port 001: Dev 004, If 2, Class=Vendor Specific Class, Driver=[none], 480M
             ID a69c:88dc  
-        |__ Port 002: Dev 004, If 0, Class=Vendor Specific Class, Driver=[none], 480M
+        |__ Port 002: Dev 003, If 0, Class=Vendor Specific Class, Driver=option, 480M
             ID 1e0e:9001 Qualcomm / Option 
-        |__ Port 002: Dev 004, If 1, Class=Vendor Specific Class, Driver=[none], 480M
+        |__ Port 002: Dev 003, If 1, Class=Vendor Specific Class, Driver=option, 480M
             ID 1e0e:9001 Qualcomm / Option 
-        |__ Port 002: Dev 004, If 2, Class=Vendor Specific Class, Driver=[none], 480M
+        |__ Port 002: Dev 003, If 2, Class=Vendor Specific Class, Driver=option, 480M
             ID 1e0e:9001 Qualcomm / Option 
-        |__ Port 002: Dev 004, If 3, Class=Vendor Specific Class, Driver=[none], 480M
+        |__ Port 002: Dev 003, If 3, Class=Vendor Specific Class, Driver=option, 480M
             ID 1e0e:9001 Qualcomm / Option 
-        |__ Port 002: Dev 004, If 4, Class=Vendor Specific Class, Driver=[none], 480M
+        |__ Port 002: Dev 003, If 4, Class=Vendor Specific Class, Driver=option, 480M
             ID 1e0e:9001 Qualcomm / Option 
-        |__ Port 002: Dev 004, If 5, Class=Vendor Specific Class, Driver=[none], 480M
-            ID 1e0e:9001 Qualcomm / Option 
+        |__ Port 002: Dev 003, If 5, Class=Vendor Specific Class, Driver=qmi_wwan, 480M
+            ID 1e0e:9001 Qualcomm / Option
 ```
 
 
