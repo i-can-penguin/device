@@ -26,15 +26,6 @@ Board Name | SD/EMMC |  Defconfig |
 | Luckfox Lyra Pi W | eMMC | 1. luckfox_lyra_pi-w_ubuntu_emmc |
 | ArmSom Forge (BPI Forge1) | SDCard | 7. rk3506-armsom-forge1_ubuntu_sdmmc |
 
- cat /etc/luckfox.cfg 
-TP_STATUS=1
-I2C2_STATUS=1
-I2C2_SCL_RM_IO=1
-I2C2_SDA_RM_IO=0
-MODULE_4G_ENABLE=1
-MODULE_4G_MODE=ppp
-MODULE_4G_APN=internet
-
 ```
 Default User Login Credentials
 
@@ -99,6 +90,15 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 001 Device 002: ID 1a86:8091 QinHeng Electronics USB HUB
 Bus 001 Device 004: ID 1e0e:9001 Qualcomm / Option SimTech, Incorporated
 Bus 001 Device 005: ID a69c:88dc AICSemi AIC8800DC
+
+cat /etc/luckfox.cfg 
+TP_STATUS=1
+I2C2_STATUS=1
+I2C2_SCL_RM_IO=1
+I2C2_SDA_RM_IO=0
+MODULE_4G_ENABLE=1
+MODULE_4G_MODE=ppp
+MODULE_4G_APN=internet
 
 root@luckfox:~# lsusb -tv
 /:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=dwc2/1p, 480M
