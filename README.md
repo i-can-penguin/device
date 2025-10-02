@@ -13,7 +13,7 @@ BOARD | Tested OK with luckfox-config |
 | Luckfox Lyra PLUS | Yes | 
 | Luckfox Lyra Zero W | Yes |
 | Luckfox Lyra Pi W emmc| Yes |
-| ArmSoM Forge 1 | Solved with https://github.com/markbirss/rk3506-ubuntu/releases/tag/1.0 |
+| ArmSoM Forge 1 | Solved with https://github.com/markbirss/rk3506-ubuntu/releases/tag/1.1 |
 
 Supported Boards
 Board Name | SD/EMMC |  Defconfig |
