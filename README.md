@@ -1,5 +1,8 @@
 # os
 
+<img width="3065" height="1848" alt="image" src="https://github.com/user-attachments/assets/81d64604-d8e7-4219-a235-68af281ee8b7" />
+
+
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/6295b83a-7a8e-4d2b-b0ba-6c5242364663" />
 
 
