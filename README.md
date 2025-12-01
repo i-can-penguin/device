@@ -322,7 +322,7 @@ rm -f os.7z*
 mv os.tar.gz ../
 cd ../
 mkdir ubuntu
-mv os.tar.gz ubuntu
+mv os.tar.gz ubuntu/ubuntu_24.04.3.tar.gz
 
 #./build.sh lunch
 # sudo ./build.sh
