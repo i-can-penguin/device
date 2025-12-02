@@ -75,7 +75,7 @@ ln -s .chips/rk3506 ../../rk3506
 ln -s .chips/rk3506 ../../.chip
 cd ../../../../
 
-# c626269a05715f92a32a7605dc1a8837ac80e258acab8d02db91c59052266015  os.tar.gz
+# 32a9f7e30ea47f678453f8a37e8a8e8cd2faa30d0e6d3af4c00f3f023a6adad4  os.tar.gz
 
 git clone https://github.com/markbirss/os.git
 cd os
