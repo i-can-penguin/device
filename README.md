@@ -56,7 +56,7 @@ Password: luckfox
 ADB shell requires no password and can be used to set or change existing passwords
 ```
 
-# IMPORTANT NOTE FOR LYRA BOARDS WITH WIFI
+# NOTE IMPORTANT FOR LYRA BOARDS WITH WIFI
 ```
 adb shell "cd /home/lyra/aic800/ && make install; reboot"
 
