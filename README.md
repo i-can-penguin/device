@@ -77,8 +77,8 @@ cd ../../../../
 
 # c626269a05715f92a32a7605dc1a8837ac80e258acab8d02db91c59052266015  os.tar.gz
 
-git clone https://github.com/markbirss/os.git
-cd os
+git clone https://github.com/markbirss/device.git
+cd device
 rm -fr .git
 7z x os.7z.001
 rm -f os.7z*
