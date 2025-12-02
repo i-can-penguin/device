@@ -36,13 +36,7 @@ Specification | Feature |
 | Case | Still to look into | 
 | Power Options | Still to look into |
 
-
-NOTE: adb shell "cd /home/lyra/aic800/ && make install; reboot"
-
-
 <img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/6295b83a-7a8e-4d2b-b0ba-6c5242364663" />
-
-
 
 ```
 Default User Login Credentials
