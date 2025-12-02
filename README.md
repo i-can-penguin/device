@@ -6,9 +6,9 @@
 
 Specification | Feature |
 |:--|:--|
-| 5inch MIPI Display | 1280x720 |
-| Luckfox Lyra Zero W | Yes | 
-| Wireless  | Yes - see NOTE |
+| 5 inch MIPI Display | 1280x720 |
+| Luckfox Lyra Zero W | 512mb RAM | 
+| Wireless  | see NOTE |
 | Keyboard  | Solder Party KeebDeck Basic |
 | Default Storade | SDcard/tf |
 | Console 80x25 Default  | 16x28 Font |
@@ -24,9 +24,9 @@ Specification | Feature |
 
 Specification | Feature |
 |:--|:--|
-| 10.1inch MIPI Display | 1280x800 |
-| Luckfox Lyra Pi W | Yes | 
-| Wireless  | Yes - see NOTE |
+| 10.1 inch MIPI Display | 1280x800 |
+| Luckfox Lyra Pi W | 512mb RAM | 
+| Wireless  | see NOTE |
 | Keyboard  | Solder Party KeebDeck Basic |
 | Default Storade | EMMMC | 
 | Console 80x25 Default | 16x28 Font |
