@@ -1,6 +1,6 @@
 # device
 
-i.can.penguin Kids Prototype
+# i.can.penguin Kids Prototype
 
 <img width="3065" height="1848" alt="image" src="https://github.com/user-attachments/assets/81d64604-d8e7-4219-a235-68af281ee8b7" />
 
@@ -18,7 +18,7 @@ Specification | Feature |
 | Case | Still to look into | 
 | Power Options | Still to look into |
 
-i.can.penguin Adult Prototype
+# i.can.penguin Adult Prototype
 
 <img width="1435" height="836" alt="image" src="https://github.com/user-attachments/assets/da619689-db2f-40ec-8f92-00e3b63a52a9" />
 
@@ -67,12 +67,7 @@ adb shell nmcli dev wifi list
 nmtui
 ```
 
-
-
 ```
-
-
-[build instructions]
 git clone -b develop https://github.com/i-can-penguin/device
 
 cd device/device/rockchip/.chips/rk3506
