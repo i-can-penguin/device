@@ -73,7 +73,7 @@ nmtui
 
 
 [build instructions]
-git clone https://github.com/i-can-penguin/device
+git clone -b develop https://github.com/i-can-penguin/device
 
 cd device/device/rockchip/.chips/rk3506
 ln -s .chips/rk3506 ../../rk3506
