@@ -68,28 +68,26 @@ nmtui
 ```
 
 ```
-git clone -b develop https://github.com/i-can-penguin/device
+git clone -b develop https://github.com/i-can-penguin/os
 
-cd device/device/rockchip/.chips/rk3506
+cd os/device/rockchip/.chips/rk3506
 ln -s .chips/rk3506 ../../rk3506
 ln -s .chips/rk3506 ../../.chip
 cd ../../../../
 
-#sha256sum
-#d6f58545b0b9c679665a8ff58dd2a7a75aa2b2648871e4be5a2c2288b4261545  ubuntu_24.04.3.tar.gz
+# c626269a05715f92a32a7605dc1a8837ac80e258acab8d02db91c59052266015  os.tar.gz
 
-git clone https://github.com/markbirss/ubuntu_24.04.3.git
-cd ubuntu_24.04.3
+git clone https://github.com/markbirss/os.git
+cd os
 rm -fr .git
-7z x ubuntu_24.04.3.7z.001
-sha256sum ubuntu_24.04.3.tar.gz
+7z x os.7z.001
+rm -f os.7z*
+# sha256sum os.tar.gz
 
-rm -f ubuntu_24.04.3.7z.*
-
-mv ubuntu_24.04.3.tar.gz ../
+mv os.tar.gz ../
 cd ../
 mkdir ubuntu
-mv ubuntu_24.04.3.tar.gz ubuntu
+mv os.tar.gz ubuntu/ubuntu_24.04.3.tar.gz
 
 #./build.sh lunch
 # sudo ./build.sh
