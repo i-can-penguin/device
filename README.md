@@ -68,10 +68,17 @@ nmtui
 ```
 
 ```
+git clone -b develop https://github.com/i-can-penguin/device
+
+cd device/device/rockchip/.chips/rk3506
+ln -s .chips/rk3506 ../../rk3506
+ln -s .chips/rk3506 ../../.chip
+cd ../../../../
+
 # c626269a05715f92a32a7605dc1a8837ac80e258acab8d02db91c59052266015  os.tar.gz
 
-git clone -b develop https://github.com/i-can-penguin/device
-cd device
+git clone https://github.com/markbirss/os.git
+cd os
 rm -fr .git
 7z x os.7z.001
 rm -f os.7z*
