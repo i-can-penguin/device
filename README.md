@@ -70,7 +70,7 @@ nmtui
 ```
 # c626269a05715f92a32a7605dc1a8837ac80e258acab8d02db91c59052266015  os.tar.gz
 
-git clone https://github.com/markbirss/device.git
+git clone -b develop https://github.com/i-can-penguin/device
 cd device
 rm -fr .git
 7z x os.7z.001
